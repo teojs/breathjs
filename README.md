@@ -2,28 +2,22 @@
 
 一个类似呼吸节奏的动画库，支持 css3 transform 多种属性
 
-## js 使用
+## npm 方式
 
 ```bash
-#bash
-
-npm install breathjs -save
+$ npm install breathjs
 ```
 
 ```js
-// xxx.js
-
 import Breath from 'breath'
 const breath = new Breath()
 breath.init()
 ```
 
-或者
+## cdn 方式
 
 ```html
-<!-- xxx.html -->
-
-<script src="breath.js"></script>
+<script src="https://unpkg.com/breathjs/breath.js"></script>
 ```
 
 ## html 使用
